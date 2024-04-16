@@ -71,7 +71,7 @@ const getOrders = async (req, res, next) => {
 }
 
 //Since this unhandled, this route would cause the app to quit
-router.get('/orders', getOrders);
+router.get('/orders', catchErrors(getOrders));
 
 
-
+// writing node
