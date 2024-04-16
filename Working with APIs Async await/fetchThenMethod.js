@@ -23,3 +23,6 @@ fetch('https://reqres.in/api/users', {
     .catch(error => console.log('ERROR'))
 
     // within 200 - 299 is ok
+
+
+    
